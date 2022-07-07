@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './assets/logo.svg'
+import './style.css'
+import TicketList from './components/TicketList'
+import { BsChevronLeft } from 'react-icons/bs'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='breadCrumb'> <span className='breadCrumbIcon'><BsChevronLeft/> </span>Volver</div>
+     <TicketList/>
+     <img src={logo} alt="tiendamia logo" className='logo'/>
     </div>
   );
 }
