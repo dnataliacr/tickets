@@ -10,8 +10,8 @@ function Ticket({ subject, date, from, status, body }) {
                 <span>{body}</span>
             </div>
             <div className='breadCrumbBox'>
-                <span className='breadCrumbIcon'> <BsChevronRight/> </span>
-            </div> 
+                <span className='breadCrumbIcon'> <BsChevronRight /> </span>
+            </div>
         </div>
     );
 }
