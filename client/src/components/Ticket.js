@@ -12,8 +12,6 @@ function Ticket({ subject, date, from, status, body }) {
             <div className='breadCrumbBox'>
                 <span className='breadCrumbIcon'> <BsChevronRight/> </span>
             </div> 
-
-
         </div>
     );
 }

@@ -3,10 +3,10 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route("/tickets")
+@app.route("/getTickets")
 
-def tickets():
-  return {"tickets": [{
+def getTickets():
+  return {"getTickets": [{
         "ticketId": "xk3d03",
         "subject": "Hola, mi item esta roto",
         "date": "2020-03-01 01:30:00Z",
